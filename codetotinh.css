@@ -1,6 +1,7 @@
 body{
     background-color: #000000;
     font-family: cursive;
+    text-align: center;
 }
 
 img{
@@ -19,4 +20,31 @@ img{
 
 .container .center{
     width: 60%;
+}
+
+.continue{
+    display: inline-flex;
+    background-color: red;
+    color: white;
+    box-shadow: 4px 4px 4px grey;
+    margin: auto;
+    gap: 0 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.continue a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.continue img{
+    width: 20px;
+    height: 20px;
+}
+
+.continue a:hover{
+    text-decoration: none;
+    color: white;
 }
