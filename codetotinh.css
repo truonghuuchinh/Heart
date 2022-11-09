@@ -1,0 +1,22 @@
+body{
+    background-color: #000000;
+    font-family: cursive;
+}
+
+img{
+    border: 0;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+}
+.container .left, .container .right{
+    width: 20%;
+    text-align: center;
+    margin: auto;
+}
+
+.container .center{
+    width: 60%;
+}
